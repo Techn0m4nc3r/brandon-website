@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  color: #364e68;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #edf9fc;
+}
+
+h1 {
+  color: #53cde2;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #53cde2;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.top-container {
+  background-color: #005792;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #53cde2;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #005792;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.credits {
+  color: #005792;
+  font-size: 0.75rem;
+}
+
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.computerpic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+hr {
+  border: dotted #364e68 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px 48%;
+}
+
+a {
+  color: #d1f4fa;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005792;
+}
+
+.btn {
+  background: #005792;
+  background-image: -webkit-linear-gradient(top, #005792, #53cde2);
+  background-image: -moz-linear-gradient(top, #005792, #53cde2);
+  background-image: -ms-linear-gradient(top, #005792, #53cde2);
+  background-image: -o-linear-gradient(top, #005792, #53cde2);
+  background-image: linear-gradient(to bottom, #005792, #53cde2);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: #edf9fc;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #53cde2;
+  color: #edf9fc;
+  background-image: -webkit-linear-gradient(top, #53cde2, #005792);
+  background-image: -moz-linear-gradient(top, #53cde2, #005792);
+  background-image: -ms-linear-gradient(top, #53cde2, #005792);
+  background-image: -o-linear-gradient(top, #53cde2, #005792);
+  background-image: linear-gradient(to bottom, #53cde2, #005792);
+  text-decoration: none;
+}
