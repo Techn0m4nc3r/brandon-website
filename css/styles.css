@@ -2,13 +2,13 @@ body {
   margin: 0;
   font-weight: bold;
   text-align: center;
-  color: #364e68;
+  color: #a7d129;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #edf9fc;
+  background-color: #222831;
 }
 
 h1 {
-  color: #53cde2;
+  color: #a7d129;
   margin: 50px auto 0 auto;
   font-family: "Roboto", sans-serif;
   font-size: 5.625rem;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  color: #53cde2;
+  color: #a7d129;
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  color: #53cde2;
+  color: #a7d129;
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -32,7 +32,7 @@ h3 {
 }
 
 .top-container {
-  background-color: #005792;
+  background-color: #393e46;
   position: relative;
   padding-top: 100px;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #53cde2;
+  background-color: #393e46;
   padding: 50px 0 20px;
 }
 
@@ -67,13 +67,13 @@ h3 {
 }
 
 .copyright {
-  color: #005792;
+  color: #a7d129;
   font-size: 0.75rem;
   padding: 20px 0;
 }
 
 .credits {
-  color: #005792;
+  color: #7bc74d;
   font-size: 0.75rem;
 }
 
@@ -104,47 +104,112 @@ h3 {
 }
 
 hr {
-  border: dotted #364e68 6px;
+  border: dotted #7bc74d 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px 48%;
 }
 
 a {
-  color: #d1f4fa;
+  color: #a7d129;
   font-family: "Roboto", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005792;
+  color: #7bc74d;
 }
 
 .btn {
-  background: #005792;
-  background-image: -webkit-linear-gradient(top, #005792, #53cde2);
-  background-image: -moz-linear-gradient(top, #005792, #53cde2);
-  background-image: -ms-linear-gradient(top, #005792, #53cde2);
-  background-image: -o-linear-gradient(top, #005792, #53cde2);
-  background-image: linear-gradient(to bottom, #005792, #53cde2);
+  background: #a7d129;
+  background-image: -webkit-linear-gradient(top, #a7d129, #7bc74d);
+  background-image: -moz-linear-gradient(top, #a7d129, #7bc74d);
+  background-image: -ms-linear-gradient(top, #a7d129, #7bc74d);
+  background-image: -o-linear-gradient(top, #a7d129, #7bc74d);
+  background-image: linear-gradient(to bottom, #a7d129, #7bc74d);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: "Roboto", sans-serif;
-  color: #edf9fc;
+  color: #000000;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #53cde2;
-  color: #edf9fc;
-  background-image: -webkit-linear-gradient(top, #53cde2, #005792);
-  background-image: -moz-linear-gradient(top, #53cde2, #005792);
-  background-image: -ms-linear-gradient(top, #53cde2, #005792);
-  background-image: -o-linear-gradient(top, #53cde2, #005792);
-  background-image: linear-gradient(to bottom, #53cde2, #005792);
+  background: #a7d129;
+  color: #2eac6d;
+  background-image: -webkit-linear-gradient(top, #7bc74d, #a7d129);
+  background-image: -moz-linear-gradient(top, #7bc74d, #a7d129);
+  background-image: -ms-linear-gradient(top, #7bc74d, #a7d129);
+  background-image: -o-linear-gradient(top, #7bc74d, #a7d129);
+  background-image: linear-gradient(to bottom, #7bc74d, #a7d129);
   text-decoration: none;
+}
+
+p {
+  color: rgba(0, 255, 0, 0.8);
+}
+.typing-text {
+  display: none;
+  margin: 0;
+  width: 59ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid rgba(0, 255, 0, 0.5);
+  animation: typing 5s steps(59), caret 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+/*Visual demo stuff */
+.terminal {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.frame {
+  background: #000;
+  width: 720px;
+  margin: auto;
+  height: 300px;
+  border: 3px solid#ddd;
+}
+.terminal-header {
+  background: #393e46;
+}
+
+h2 {
+  margin: 0;
+  font: 200% monospace;
+}
+
+.trick-header {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+h1 {
+  padding: 30px;
+  background: #000;
+  color: rgba(0, 255, 0, 0.8);
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font: 100% Consolas, Monaco, monospace;
+  background: #1d1f20;
 }
