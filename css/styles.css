@@ -149,30 +149,7 @@ a:hover {
   text-decoration: none;
 }
 
-p {
-  color: rgba(0, 255, 0, 0.8);
-}
-.typing-text {
-  display: none;
-  margin: 0;
-  width: 59ch;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 5px solid rgba(0, 255, 0, 0.5);
-  animation: typing 5s steps(59), caret 1s steps(1) infinite;
-}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes caret {
-  50% {
-    border-right-color: transparent;
-  }
-}
 
 /*Visual demo stuff */
 .terminal {
